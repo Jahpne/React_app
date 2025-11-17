@@ -1,0 +1,10 @@
+body{
+  background: linear-gradient(to bottom, #edecec, #3a3a3a);
+  background-repeat: no-repeat;
+}
+
+.contact-section1{
+  width: auto;
+  height: 490px;
+  background: linear-gradient(to bottom, #edecec, #3a3a3a);
+}

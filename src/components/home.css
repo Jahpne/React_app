@@ -1,0 +1,90 @@
+.header{
+   height: 100vh;
+ width: 100vw;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: space-between;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+img{
+  height: 100px;
+  width: 100px;
+}
+.be{
+ padding-top: 100px;
+}
+.headerContainer{
+  width: auto;
+margin-left: 50%;
+}
+.headerContainer h1{
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  height: 60px;
+  color: rgb(31, 29, 29);
+}
+.headerContainer button{
+
+  color: black;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: slategray;
+  height: 50px;
+  width: auto;
+
+  color: rgb(66, 32, 218);
+    font-size: 24px;
+  font-weight: bolder;
+transition: .3s ease-in;
+cursor: pointer;
+
+}
+
+.headerContainer button:hover{
+
+  background-color: black;
+  transition: .4s ease-out;
+  
+}
+.headerContainer button:active{
+  background-color: aliceblue;
+  opacity: .8;
+  transition: .3s ease-in-out;
+}
+@media only  screen and (max-width: 650px) {
+.header{
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+}
+p{
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+}
+span{
+  font-weight: bold;
+  color: grey;
+}
+
+@media only  screen and (max-width: 650px) {
+.header{
+  justify-content: center;
+  align-items: center;
+
+}
+}
+
+
